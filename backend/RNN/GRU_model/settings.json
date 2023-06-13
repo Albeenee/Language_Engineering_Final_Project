@@ -1,0 +1,1 @@
+{"training_set": "project_language_engineering/rnn/train.txt", "test_set": "project_language_engineering/rnn/test.txt", "epochs": 5, "learning_rate": 0.001, "batch_size": 100, "hidden_size": 100, "sentence_length": 7, "embedding_size": 50, "tune_embeddings": true}
