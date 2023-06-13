@@ -1,0 +1,71 @@
+.login {
+    width: 90%;
+    max-width: 40rem;
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+  
+  .control {
+    margin: 1rem 0;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+  }
+  
+  .control label,
+  .control input {
+    display: block;
+  }
+  
+  .control label {
+    font-weight: bold;
+    flex: 1;
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+  
+  .control input.rnn {
+    flex: 3;
+    font: inherit;
+    padding: 0.35rem 0.35rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .control input.rnn:focus {
+    transition:all .5s ease;
+    outline: none;
+    border-color: rgb(110, 215, 175);
+    background: rgb(225, 251, 241);
+  }
+
+  .control input.trigram {
+    flex: 3;
+    font: inherit;
+    padding: 0.35rem 0.35rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .control input.trigram:focus {
+    transition:all .5s ease;
+    outline: none;
+    border-color: #4f48d3;
+    background: #dedcfb;
+  }
+
+  .control input.lstm {
+    flex: 3;
+    font: inherit;
+    padding: 0.35rem 0.35rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .control input.lstm:focus {
+    transition:all .5s ease;
+    outline: none;
+    border-color: hsl(51, 100%, 41%);
+    background: hsl(51, 100%, 95%);
+  }
+

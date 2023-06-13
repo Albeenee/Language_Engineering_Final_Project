@@ -1,0 +1,120 @@
+.choice {
+    max-width: 60rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+.list {
+    display: flex;
+    gap: 1rem;
+}
+
+.list li {
+    font-size: 35px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    margin-right: 30px;
+    width: 150px;
+    line-height: 60px;
+}
+
+/* RNN */
+.list li a.rnn {
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-radius: 30px;
+    transition:all .5s ease;
+}
+
+.list li a.rnn:hover {
+    color: rgb(189, 242, 221);
+    background: transparent;
+    box-shadow: 0 0 5px rgb(189, 242, 221),
+        0 0 25px rgb(189, 242, 221),
+        0 0 25px rgb(189, 242, 221),
+        0 0 25px rgb(189, 242, 221);
+}
+
+
+.list li a.rnn.active {
+    text-decoration: none;
+    color: rgb(110, 215, 175);
+    
+}
+
+
+/* Trigram */
+.list li a.trigram {
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-radius: 30px;
+    transition:all .5s ease;
+}
+
+.list li a.trigram:hover {
+    color: hsl(243, 95%, 83%);
+    background: transparent;
+    box-shadow: 0 0 5px hsl(243, 100%, 83%),
+        0 0 25px hsl(243, 95%, 83%),
+        0 0 25px hsl(243, 95%, 83%),
+        0 0 25px hsl(243, 95%, 83%);
+}
+
+
+.list li a.trigram.active {
+    text-decoration: none;
+    color: hsl(243, 95%, 83%);
+    
+}
+
+/* LSTM */
+.list li a.lstm {
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-radius: 30px;
+    transition:all .5s ease;
+}
+
+.list li a.lstm:hover {
+    color: hsl(51, 100%, 82%);
+    background: transparent;
+    box-shadow: 0 0 5px hsl(51, 100%, 82%),
+        0 0 25px hsl(51, 100%, 82%),
+        0 0 25px hsl(51, 100%, 82%),
+        0 0 25px hsl(51, 100%, 82%);
+}
+
+
+.list li a.lstm.active {
+    text-decoration: none;
+    color: hsl(51, 100%, 82%);
+}
+
+/* .list li a.trigram {
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition:all .5s ease;
+}
+
+.list li a.trigram:hover {
+    color: hsl(243, 95%, 70%);
+    text-shadow: 0 0 40px hsl(243, 95%, 60%);
+}
+
+
+.list li a.trigram.active {
+    text-decoration: none;
+    color: hsl(243, 100%, 62%);
+    
+} */
+
+
+
+.list li a:hover::before {
+    transform: scale(1.1);
+    }

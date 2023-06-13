@@ -1,0 +1,58 @@
+.results {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .results button.trigram {
+    transition: all .5s ease;
+    color:hsl(243, 61%, 55%);
+    border: 0.5px solid hsl(243, 61%, 55%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    line-height: 0.8;
+    font-size: calc(10px + 2vmin);
+    background-color:white;
+    padding: 10px;
+    flex:1;
+  }
+
+.results button.trigram:hover {
+    color:white;
+    background-color:hsl(243, 61%, 55%);
+}
+
+.results button.rnn {
+  transition: all .5s ease;
+  color:rgb(81, 163, 132);
+  border: 0.5px solid rgb(81, 163, 132);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  line-height: 0.8;
+  font-size: calc(10px + 2vmin);
+  background-color:white;
+  padding: 10px;
+  flex:1;
+}
+
+.results button.rnn:hover {
+  color:white;
+  background-color:rgb(81, 163, 132);
+}
+
+.results button.lstm {
+  transition: all .5s ease;
+  color:hsl(51, 100%, 41%);
+  border: 0.5px solid hsl(51, 100%, 41%);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  line-height: 0.8;
+  font-size: calc(10px + 2vmin);
+  background-color:white;
+  padding: 10px;
+  flex:1;
+}
+
+.results button.lstm:hover {
+  color:white;
+  background-color:hsl(51, 100%, 41%);
+}

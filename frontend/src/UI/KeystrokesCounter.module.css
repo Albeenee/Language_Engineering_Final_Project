@@ -1,0 +1,29 @@
+.choice {
+    max-width: 60rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+.list {
+    border: 1px solid white;
+    display: flex;
+    gap: 1rem;
+}
+
+.list li.trigram {
+    font-size: 20px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    margin-right:35px;
+    line-height: 60px;
+}
+
+.list li.rnn {
+    font-size: 20px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    margin-right:35px;
+    line-height: 60px;
+}
