@@ -1,5 +1,5 @@
 # Language_Engineering_Final_Project
-
+By Tim Wünsch and Albane Vigier
 ----------------------------------------------------
 Using the Interface
 ----------------------------------------------------
