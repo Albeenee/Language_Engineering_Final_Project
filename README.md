@@ -5,6 +5,7 @@ By Tim Wünsch and Albane Vigier
 Description
 ----------------------------------------------------
 this project implements word prediction (e.g. auto correct) with three different models and provides an evaluation metric to compare the performance on a test corpus.
+
 ----------------------------------------------------
 Using the Interface
 ----------------------------------------------------
