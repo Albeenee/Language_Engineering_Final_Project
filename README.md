@@ -4,7 +4,7 @@ By Tim Wünsch and Albane Vigier
 ----------------------------------------------------
 Description
 ----------------------------------------------------
-this project implements word prediction (e.g. auto correct) with three different models and provides an evaluation metric to compare the performance on a test corpus.
+this project implements word prediction (e.g. auto correct) with three different models and provides an evaluation metric to compare the performance on a test corpus. The first model is a basic Trigram language model, whereas the other models are Recurrent neural networks (LSTM and GRU).
 
 ----------------------------------------------------
 Using the Interface
